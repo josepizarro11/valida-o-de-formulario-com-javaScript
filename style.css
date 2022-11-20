@@ -1,0 +1,230 @@
+:root{
+  --color-white:#fff;
+  --color-gray1: rgb(169, 169, 169);
+  --color-pink: rgb(255, 239, 213);
+  --color-gray:rgb(105,105,105);
+  --color-blue:rgb(1, 33, 63);
+  }
+
+body{
+    font-family: sans-serif;
+
+}
+ #nav, a{
+
+   color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+
+
+}
+.logo{
+    margin-left: 100px;
+    float: left;
+}
+#banner{
+  width: 100%;
+}
+
+h2{
+
+   margin-left: 30px;
+}
+.sobremim{
+    color: black;
+    margin: auto;
+}
+#img-sobre{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#formacao-experiencia{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 1rem;
+    padding: 1rem 2rem;
+
+}
+.formacao-experienciaDiv{
+
+    box-shadow: 0px 4px 12px rgba(143, 27, 27, 0.2);
+
+
+}
+.data{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+     text-transform: capitalize;
+  }
+
+
+
+  .formacao{
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 0.10px;
+  }
+  .instituicao{
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 10px;
+    line-height: 0.5px;
+  }
+    .meus-projetos{
+       display: flex;
+       align-items: center;
+     margin: auto;
+     color: #000105;
+    }
+
+  #Projetos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background-color:rgb(1, 33, 63);
+    margin-bottom: 40px;
+  }
+
+  #img-project{
+     width: 300px;
+     height: 300px;
+     border-radius: 50%;
+     box-shadow: inset;
+     margin-top: 15px;
+
+  }
+  .titulo-project{
+    color: darkgray;
+    font-size: 40px;
+    font-weight: bold;
+
+
+  }
+
+
+
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 0;
+}
+
+
+.container {
+    background-color: #2F3644;
+    border-radius: 5px;
+    border: 2px solid #3E445B;
+    width: 450px;
+    max-width: 100%;
+  
+  
+}
+
+.formContact{
+    padding: 30px 40px;
+}
+
+.formContact h2 {
+    font-weight: 600;
+    color: #ACBAE1;
+    font-size: 30px;
+}
+
+.form {
+    padding: 0 60px 80px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+   margin-right: 40px;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #828cad;
+}
+
+.form-control input {
+    border: 2px solid #003453;
+    border-radius: 5px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control.error i.img-error {
+    visibility: visible;
+}
+
+.form-control.success i.img-success {
+    visibility: visible;
+}
+
+.form-control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.form button {
+    background-color: #6C63FF;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #584ff5;
+    transition: 0.3s;
+}
